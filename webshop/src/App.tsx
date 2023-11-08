@@ -4,9 +4,6 @@ import './App.css';
 import Cart from './components/Cart';
 
 function App() {
-
-  const [cartItems, setCartItems] = useState();
-
   return (
     <div className="Container">
       <Store />
